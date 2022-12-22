@@ -1,0 +1,94 @@
+#header{
+    display:flex;
+    
+    border: 1px solid red;
+    /* justify-content: center; */
+    /* place-items: center; */
+    /* place-content: center; */
+    /* align-items: center; */
+    height: 100px;
+    color: white;
+    font-weight:bolder;
+}
+#image{
+    background-color: teal;
+    /* padding: 5px; */
+    /* width: 50%; */
+    padding: 2px
+}
+#i-image{
+    width:100%;
+    height: 100%;
+    border-radius: 50%;
+}
+#git{
+    flex-basis: 150%;
+    background-color:rgb(4, 93, 92);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+#container{
+    display:flex;
+    /* border: 5px solid blue; */
+    height:80vh;
+    background-color:rgb(83, 187, 186);
+
+}
+#leftbox{
+    /* border: 5px solid green ; */
+    /* background-color: pink; */
+    flex-basis: 30% ;
+    padding: 50px;
+}
+#libox{
+    height: 90%;
+    border-radius: 15px;
+    border: 5px solid black;
+    background-color: black;
+    
+}
+#rightbox{
+    /* border: 5px solid violet ; */
+    /* background-color: green; */
+    flex-basis: 70%;
+    padding : 20px;
+}
+#up{
+    border: 5px solid black;
+    background-color: black;
+    margin: 9% 10% 5% 10%;
+    border-radius: 5px;
+    padding: 0px 10px;
+    color: whitesmoke
+}
+#middle{
+    /* border: 5px solid black; */
+    display: flex;
+    height: 40%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px 0 px ;
+}
+.middle{
+    width: 30%;
+    height: 40%;
+    border-radius:15px;
+    
+}
+#two{
+    border: 5px solid black;
+}
+#three{
+    border: 5px solid black; 
+}
+#four{
+    border: 5px solid black; 
+}
+#down{
+    height: 20%;
+    /* margin-top:5%; */
+    border: 5px solid black; 
+    border-radius: 15px;
+}
